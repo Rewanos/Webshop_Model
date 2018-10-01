@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Template Home Page</title>
+	<meta name="description" content="With 350+ luxury designer brands at amazing prices, shopping at THE Template is guaranteed to take your designer brands to the next level!">
+	<meta name="keewords" content="Template, designer brands, fashion, casual style">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="img/favicon/favicon.ico">
+	<meta property="og:url" content="#">
+	<meta property="og:type" content="E-commerce website">
+	<meta property="og:title" content="Template Home Page">
+	<meta property="og:description" content="With 350+ luxury designer brands at amazing prices, shopping at THE Template is guaranteed to take your style to the next level!">
+
+	<meta name="twitter:card" content="product" >
+	<meta name="twitter:site" content="@template">
+	<meta name="twitter:title" content="Template Home Page">
+	<meta name="twitter:description" content="With 350+ luxury designer brands at amazing prices, shopping at THE Template is guaranteed to take your style to the next level!" >
+	<meta name="twitter:image" content="img/favicon/favicon.ico" >
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	
+
+</head>
+
+<body>
+<!--HEADER START-->
+	<header>
+
+		<div class="container">
+			<div  class="container_top">
+				<a href="index.html">
+					<h1>
+						<span class="hidden-xs">Template</span>
+						<span class="hidden-lg hidden-sm">TL</span>
+					</h1>
+				</a>
+
+				<div id="hamburger" class=" hidden-lg hidden-sm hamburger hamburger--elastic" tabindex="0" onclick="openMenu()" aria-label="Menu" role="button">
+				  <div class="hamburger-box">
+				    <div id="hamburger-inner" class="hamburger-inner"></div>
+				  </div>
+				</div>
+				
+				<a class="hidden-xs" href="#">E-mail sing up</a>
+				<a href="shopping-bag.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Bag <span id="amount-paid"></span>(<span id="paid-quantity">0</span>)</a>
+				
+			</div>
+			
+			<div id="container_bottom" class="container_bottom">
+
+				<nav>
+					<ul>
+						<li><a href="catalog.html">Women</a></li>
+						<li><a href="catalog.html">Men</a></li>
+						<li><a href="catalog.html">Handbags</a></li>
+						<li><a href="catalog.html">Accessorles</a></li>
+						<li><a href="catalog.html">Sale</a></li>
+						<li><a href="catalog.html">New Arrivals</a></li>
+						<li><a href="catalog.html">Clearance</a></li>
+						<li><a href="catalog.html">Store Locator</a></li>
+					</ul>
+				</nav>
+
+				<div class="wrapper">
+				  <div id="contain" class="contain">
+				  	<form>
+				  		<input id="input" type="text" class="input" placeholder="Style Name">
+				    	<i id="search" class="fa fa-search" aria-hidden="true"></i>
+				  	</form>
+				  </div>
+				</div>
+				
+			</div>
+		</div>
+	</header>
+<!--HEADER END-->
+
+<!--SLIDER START-->
+	<section>
+		<div class="slider-container">
+			<a href="catalog.html">
+				<img class="mySlides animate-fading" src="img/img_for_slider/1.jpg" alt="New Collection Spring-Summer" style="width:100%">
+			</a>
+			<a href="item.html">
+				<img class="mySlides animate-fading" src="img/img_for_slider/2.jpg" alt="Accessories & others" style="width:100%">
+			</a>
+		  	<a href="catalog.html">
+		  		<img class="mySlides animate-fading" src="img/img_for_slider/3.jpg" alt="Reebok shoes" style="width:100%">
+		  	</a>
+		  
+
+		  <div data-reset="btn" class="btn btn-left hidden-sm hidden-xs" onclick="plusDivs(-1)">&#10094;</div>
+		  <div data-reset="btn" class="btn btn-right hidden-sm hidden-xs" onclick="plusDivs(1)">&#10095;</div>
+
+		  <div class="display-bottommiddle" style="width:100%">
+		    <span data-reset="btn" class="dots demo hover-white" onclick="currentDiv(1)"></span>
+		    <span data-reset="btn" class="dots demo hover-white" onclick="currentDiv(2)"></span>
+		    <span data-reset="btn" class="dots demo hover-white" onclick="currentDiv(3)"></span>
+		  </div>
+
+		</div>
+	</section>
+<!--SLIDER END-->
+
+<!--SALE SECTION START-->
+	<section>
+		<div class="container container__caps">
+			<div class="container-left">
+				<p class="hidden-lg"><a href="item.html">Nike Red</a></p>
+			</div>
+			<div class="container-right_sm hidden-lg hidden-xs">
+				<div class="sm-text">
+					<h3>Sale</h3>
+					<p>-70%</p>
+				</div>
+				
+			</div>
+			<div class="container-middle hidden-sm hidden-xs"></div>
+			<div class="container-right hidden-sm hidden-xs">
+				<h2><a href="catalog.html">Caps & Hats</a></h2>
+				<p>Sale -50%</p>
+			</div>
+		</div>
+	</section>
+<!--SALE SECTION END-->
+
+<!--NEW ARRIVALS SECTION START-->
+	<section>
+		<div class="section-h2">
+			<h2>New Arrivals</h2>
+		</div>
+		<div class="catalog-container">
+			<div id="catalog-items" class="catalog-items">
+			
+			</div>
+		</div>
+		
+		<div class="button-center">
+			<a href="catalog.html" class="button">All arivals</a>
+		</div>
+	</section>
+<!--NEW ARRIVALS SECTION END-->
+
+<!--FOOTER START-->
+	<footer>
+		<div class="footer-container container">
+			<div class="footer-container__links">
+				<h3>Quick Links</h3>
+				<ul>
+					<li><a href="#">Store locator</a></li>
+					<li><a href="#">Gift cards</a></li>
+					<li><a href="#">Size guide</a></li>
+					<li><a href="#">About us</a></li>
+					<li><a href="#">Support</a></li>
+				</ul>
+			</div>
+			<div class="footer-container__customer">
+				<h3>Customer Care</h3>
+				<ul>
+						<li><a href="#">Customer service</a></li>
+						<li><a href="#">Track my order</a></li>
+						<li><a href="#">Return policy</a></li>
+						<li><a href="#">Shipping & delivery</a></li>
+						<li><a href="#">Contact us</a></li>
+						<li><a href="#">Careers</a></li>
+					</ul>	
+			</div>
+
+			<div class="footer-container__questions">
+				<h3>Questions</h3>
+
+				<p><a href="https://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a> Tweet us <span>@template</span></p>
+				<p class="hidden-sm hidden-xs">We have our own delivery service which<br> operates in 23 major European cities. Delivery<br> time - 3-5 days.</p>
+
+				<div class="footer-container__phone hidden-lg hidden-xs">
+					<h3>Order by phone</h3>
+					<p>8-800-409-47-12</p>
+				</div>
+
+				<a href="https://facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a href="https://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+
+			</div>
+
+			<div class="footer-container__phone hidden-sm">
+				<h3>Order by phone</h3>
+				<p>8-800-409-47-12</p>
+			</div>
+		</div>
+
+		<div class="footer-container__copy hidden-xs">
+
+				<p class="hidden-xs">© 2010–2015, The Template Group inc.</p>
+				<p class="hidden-xs">Share <span>1437</span></p>
+				<ul class="hidden-xs">
+					<li><a href="#">Legal notice</a></li>
+					<li><a href="#">Privacy policy</a></li>
+					<li><a href="#">Site map</a></li>
+				</ul>
+
+			</div>
+		<div class="footer-container__copy_bottom hidden-lg hidden-sm">
+			<div class="footer-container__copy_ul">
+				<ul>
+					<li><a href="#">Legal notice</a></li>
+					<li><a href="#">Privacy policy</a></li>
+					<li><a href="#">Site map</a></li>
+				</ul>
+			</div>
+			
+			<p>© 2010–2015, The Template Group inc.</p>
+			<p>Share <span>1437</span></p>
+		</div>
+	</footer>
+<!--FOOTER END-->
+
+	<link rel="stylesheet" href="css/main.css">
+	
+	<script src="data/catalog.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/start.js"></script>
+
+</body>
+</html>

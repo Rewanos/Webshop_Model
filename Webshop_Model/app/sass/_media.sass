@@ -1,0 +1,677 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1250px)
+	.container 
+		padding-left: 10px
+	.container_bottom
+		ul
+			li
+				padding-left: 50px 
+				&:first-of-type
+					padding-left: 0
+				a 
+					font-size: 14px
+		.wrapper
+			padding-left: 60px
+		.contain.active
+			width: 140px 
+	//CATALOG PAGE STYLES
+	.header-container
+		padding-left: 50px
+	.full-catalog
+		justify-content: space-around
+	.catalog_item
+		margin-left: 4%
+	.container-fluid__text
+		h3
+			font-size: 23px
+		p
+			font-size: 14px
+
+	/**/
+
+@media only screen and (max-width : 1190px)
+	.container_bottom
+		ul
+			li
+				padding-left: 35px 
+				
+		.wrapper
+			padding-left: 15px
+	.section-h2
+		font-size: 35px
+	.catalog-container
+		.catalog-items
+			.catalog_item
+				.image
+					width: 200px
+				.overlay
+					height: 285px
+	/*CATALOG PAGE STYLES*/
+	.full-catalog
+		.catalog_item
+			margin-left: 2%
+			.overlay
+				width: 220px
+				height: 311px
+			.image
+				width: 220px
+		.catalog-items_4
+			img
+				height: 320px
+	
+	/*ITEM-DETALIS PAGE*/
+	.item-detalis
+		.button
+			padding: 20px 80px
+	/**/
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1024px)
+	.container_bottom
+		ul
+			li
+				padding-left: 25px 
+			a 
+					font-size: 13px
+				
+		.wrapper
+			padding-left: 20px
+			margin-top: 0
+	.catalog-container
+		.catalog-items
+			.catalog_item
+				.overlay
+					height: 285px
+	.catalog_item
+		&:nth-child(4)
+			display: none
+	.section-h2
+		font-size: 30px
+	.catalog_item 
+		.image
+			width: 210px
+		.overlay
+			width: 210px
+			height: 300px
+	.button
+		padding: 16px 95px
+	.button-center
+		a 
+			margin-top: 100px
+	.footer-container__copy
+		ul
+			li 
+				padding-left: 25px 
+	
+
+	/*CATALOG PAGE STYLES*/
+	.header__filter-selected
+		height: 70px
+		background-color: #fff
+		p
+			font-size: 20px
+			font-family: $open-bold
+	.header__dropdown-filter
+		flex-wrap: wrap
+		position: absolute
+		z-index: 5
+		background-color: #fff
+		margin-left: -40px
+		height: 1100px
+		.dropdown
+			width: 33.3%
+			padding-left: 30px
+			&:hover
+				background-color: #fff
+			a
+				&:hover
+					background-color: #fff
+		.dropdown-content
+			display: block
+			position: inherit
+			box-shadow: none
+			ul
+				padding-left: 20px
+				li
+					list-style-type: inherit
+					a
+						color: #a8a8a8
+						padding-top: 0
+						&:hover
+							background-color: #fff
+		
+	.container-fluid__text
+		h3
+			font-size: 23px
+		p
+			font-size: 15px
+	.container-fluid_left-block
+		width: 75%
+	.container-fluid_middle-block
+		width: 40%
+	.full-catalog
+		.catalog_item
+			margin-left: 40px
+			&:nth-child(9)
+				display: table-cell
+			.overlay
+				width: 210px
+				height: 300px
+			.image
+				width: 210px
+		.catalog-items_3
+			display: none
+		.catalog-items_4
+			img
+				height: 303px 
+			.img_overlay
+				&:before
+					left: 0
+					right: 0
+				span
+					left: 60px
+					&:nth-child(2)
+						left: 55px
+		.catalog-items_7
+			display: table-cell
+	.container
+		.button-center
+			.button
+				border: 1px solid #000
+				color: #000
+				&:hover
+					background-color: #848383
+					color: #fff
+
+	/*ITEM-DETALIS PAGE*/
+	.container-tablet
+		margin: 0 40px
+	.item-detalis
+		flex-wrap: wrap
+		&_button
+			margin: 20px 40px 60px 40px
+		&__slider
+			max-width: 100%
+			margin: 0 40px
+			flex-direction: row-reverse
+			&_images
+				//display: block;
+				max-width: 1300px;
+				max-height: 768px;
+				width: auto;
+				height: auto;
+				margin: 0
+				.images_width
+					width: 100%
+					.min-slides
+						width: 100%
+						height: 100%
+		&_content
+			display: block
+			margin: 0 auto
+			text-align: center
+			padding: 0 25%
+			width: 100%
+			h2
+				font-size: 23px
+			p
+				font-size: 14px
+			h3
+				font-size: 17px
+			&_radio
+				&_size, &_color
+					p
+						font-size: 12px
+					label
+						font-size: 13px
+		.slides
+			width: 75%
+			height: 98%
+		.button
+			margin: 50px auto
+			padding: 15px 70px
+			width: 65%
+	/*SHOPPING-BAG STYLES*/
+	.shopping-bag_items
+		.shopping-bag_item
+			.item_img
+				.image
+					width: 190px
+				.overlay
+					width: 190px
+					height: 270px
+					.text
+						left: 60%
+			.item-text
+				h3
+					margin-bottom: 5px
+					font-size: 16px
+				p 
+					margin: 8px 0
+					font-size: 12px
+				h4
+					margin: 10px 0
+					font-size: 14px
+	/**/
+
+@media only screen and (max-width : 957px)
+	.container 
+		padding-left: 10px
+	.container-left
+		background-size: contain
+	.contain
+		width: 0px
+		height: 32px
+	.container_bottom
+		ul
+			li
+				padding-left: 15px 
+				a 
+					font-size: 11px
+		.contain.active
+				width: 160px
+				
+		.wrapper
+			padding-left: 17px
+	.footer-container
+		ul
+			padding-top: 0
+		&__copy
+			ul
+				padding-left: 10px
+			&_bottom
+				p:nth-child(2)
+					font-size: 15px
+					font-family: $roboto-bold
+				p:nth-child(3)
+					padding-left: 80px
+					font-size: 18px
+					font-family: $open-bold
+				span
+						font-size: 15px
+						background-color: $gray
+						font-family: $open-regular
+	/*CATALOG PAGE STYLES*/
+	.header-container
+		padding-left: 40px
+	.container-fluid
+		&__text
+			h3
+				font-size: 22px
+			p
+				font-size: 16px	
+		&_left-block
+			background-position-x: -50px
+	.full-catalog
+		.catalog_item
+			margin-left: 3%
+	
+	
+	/**/
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.container
+		&_top
+			a:nth-child(4)
+				margin-right: 30px
+		&_bottom
+			display: none
+			ul
+				li
+					display: none
+					padding-left: 0
+					padding-top: 10px
+					a
+						font-size: 15px
+
+			&.responsive
+				display: block
+				li
+					display: block
+			.wrapper
+				padding-left: 0
+	.slider-container
+		margin-top: 25px
+		img
+			max-height: 474px
+
+	.container-left
+		width: 100%
+		background-size: contain
+		
+	.catalog_item
+		&:nth-child(3)
+			display: none
+		//.image
+			//width: 240px
+		//.overlay
+			//width: 240px
+			//height: 340px
+	.section-h2
+		font-size: 25px
+	.button
+		padding: 14px 85px
+	.button-center
+		a 
+			margin-top: 80px
+	.footer-container
+		flex-wrap: wrap
+		&__links
+			width: 50%
+			padding-left: 10%
+		&__customer
+			width: 50%
+			padding-left: 10%
+		&__questions
+			flex-grow: 1
+			padding-left: 0
+			padding-left: 10%
+		&__phone
+			flex-grow: 1
+			padding-left: 4%
+		&__copy
+			margin-top: 50px
+			&_bottom
+				margin-bottom: 15px
+				ul
+					padding-left: 0
+					li
+						display: inline
+						padding-left: 40px
+						a
+							text-decoration: none
+							color: #000
+							font-size: 14px
+							font-family: $roboto-bold
+				p
+					display: inline
+					&:nth-child(2)
+						padding-left: 6%
+					&:nth-child(3)
+						padding-left: 20%
+	/*CATALOG PAGE STYLES*/
+	.header__filter-selected
+		p
+			font-size: 17px
+			font-family: $open-bold
+	.header__dropdown-filter
+		height: 1230px
+		.dropdown
+			width: 50%		
+	.container-fluid
+		&__text
+			margin: 0 10px
+			h3
+				font-size: 20px
+			p
+				font-size: 14px
+		&_left-block
+			background-position: center
+			width: 100vw
+	.full-catalog
+		.catalog_item
+			margin-left: 7%
+			&:nth-child(8)
+				display: none
+			&:nth-child(9)
+				display: none
+
+		/*ITEM-DETALIS PAGE*/
+	.container-tablet
+		margin: 0 40px
+	.item-detalis
+		flex-wrap: wrap
+		&_button
+			margin: 20px 40px 60px 40px
+		&__slider
+			max-width: 100%
+			margin: 0 40px
+			flex-direction: column-reverse
+			&_images
+				max-width: 1300px;
+				max-height: 768px;
+				width: auto;
+				height: auto;
+				margin: 0
+				.images_width
+					width: 33.33%
+					.min-slides
+						width: 100%
+						height: 100%
+		&_content
+			display: block
+			margin: 0 40px
+			text-align: center
+			padding: 0
+			h2
+				font-size: 21px
+			p
+				font-size: 12px
+			h3
+				font-size: 15px
+			&_radio
+				&_size, &_color
+					text-align: left
+					p
+						font-size: 11px
+					label
+						font-size: 12px
+		.slides
+			width: 100%
+			height: 75%
+		.button
+			margin: 50px auto
+			font-size: 15px
+			width: 60%
+	/*SHOPPING-BAG STYLES*/
+	.shopping-bag_items
+		.shopping-bag_item
+			width: 100%
+			justify-content: center
+			.item_img
+				.new
+					left: auto
+				.image
+					width: 190px
+				.overlay
+					width: 190px
+					height: 270px
+					left: auto;
+					right: auto
+					.text
+						left: 60%
+			.item-text
+				h3
+					margin-bottom: 5px
+					font-size: 14px
+				p 
+					margin: 8px 0
+					font-size: 11px
+				h4
+					margin: 10px 0
+					font-size: 13px
+	.shopping-bag_buttons
+		.button
+				padding: 10px 75px
+	/**/
+@media only screen and (max-width : 580px)
+	.footer-container
+		h3
+			font-size: 15px
+		ul
+			li 
+				a 
+					font-size: 14px
+		&__questions
+			p
+				font-size: 14px
+		&__phone
+			p
+				font-size: 14px
+		&__copy
+			&_bottom 
+				p
+					&:nth-child(3)
+						padding-left: 12% 
+	/*CATALOG PAGE STYLES*/
+	.full-catalog
+		justify-content: center
+		.catalog_item
+			margin-left: 4%
+	.button
+		padding: 10px 70px
+	/**/
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 500px)
+	.container-left
+		background-size: contain
+		p
+			font-size: 25px
+	.section-h2
+		font-size: 20px
+		h2
+			margin-top: 0
+	.catalog-container
+		.catalog-items
+			.catalog_item
+				.image
+					width: 160px
+				.overlay
+					height: 227px
+	.catalog-items
+		margin-top: 50px
+	.catalog_item
+		&:nth-child(3)
+			display: none
+		.image
+			width: 160px
+		.overlay
+			width: 160px
+			height: 230px
+		h3
+			font-size: 12px
+		p
+			font-size: 11px
+	.button-center
+		a 
+			margin-top: 55px
+	.footer-container
+		&__links
+			padding-left: 5%
+		&__questions
+			padding-left: 5%
+			p
+				.fa
+					padding-right: 0
+		&__copy
+			&_bottom 
+				ul
+					padding-left: 0
+					li
+						display: inline
+						padding-left: 20px
+						a
+							text-decoration: none
+							color: #000
+							font-size: 12px
+							font-family: $roboto-bold
+				p
+					display: inline
+					&:nth-child(2)
+						padding-left: 4%
+						font-size: 14px
+					&:nth-child(3)
+						padding-left: 8%
+						font-size: 14px
+					span
+						font-size: 14px
+		&__phone
+			padding-left: 2%
+	/*CATALOG PAGE STYLES*/
+	.header__filter-selected
+		p
+			font-size: 13px
+			font-family: $open-bold
+	.header__dropdown-filter
+		.dropdown
+			.dropbtn
+				font-size: 15px
+		.dropdown-content
+			ul
+				li
+					a
+						padding: 4px 5px
+	.container-fluid__text
+		h3
+			font-size: 18px
+		p
+			font-size: 13px
+	.full-catalog
+		.catalog_item
+			.image
+				width: 140px 
+			.overlay
+				width: 140px
+				height: 200px
+		.catalog-items_4
+			img
+				height: 200px 
+			.img_overlay
+				&:before
+					bottom: 72px
+				span
+					left: 30px
+					bottom: 140px
+					&:nth-child(2)
+						left: 25px
+						bottom: 115px
+	/*ITEM-DETALIS PAGE*/
+	.item-detalis
+		&_content
+			&_radio
+				&_size, &_color
+					label
+						margin-left: 5px
+						&:nth-of-type(2)
+							margin-left: 12px
+				&_size
+					label
+						margin-left: 9px
+		.button
+			width: 80%
+			font-size: 13px
+			padding: 15px 55px
+
+	/*SHOPPING-BAG STYLES*/
+	.shopping-bag_items
+		.shopping-bag_item
+			.item_img
+				.new
+					left: auto
+				.image
+					width: 160px
+				.overlay
+					width: 160px
+					height: 230px
+					.text
+						left: 55%
+	.shopping-bag_text
+		p 
+			font-size: 12px
+	.shopping-bag_buttons
+		a:nth-child(1)
+			font-size: 13px
+		.button
+			padding: 8px 45px
+			font-size: 15px
+		p 
+			font-size: 10px
+			#total-summ
+				font-size: 15px
+	/**/
